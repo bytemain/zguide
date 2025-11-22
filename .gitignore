@@ -24,3 +24,5 @@ site/resources/*
 site/public/*
 
 .venv # python venv
+
+.hugo_build.lock
