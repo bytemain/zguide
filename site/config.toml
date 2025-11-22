@@ -2,6 +2,18 @@
 baseURL = 'https://zguide.zeromq.org'
 title = 'ØMQ - The Guide'
 theme = 'book'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    title = 'ØMQ - The Guide'
+    weight = 1
+    contentDir = 'content/docs'
+  [languages.zh]
+    title = 'ØMQ 指南'
+    weight = 2
+    contentDir = 'content/zh'
 
 # Book configuration
 disablePathToLower = true
@@ -34,7 +46,7 @@ unsafe = true
   # (Optional, default docs) Specify root page to render child pages as menu.
   # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
+  BookSection = '*'
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
