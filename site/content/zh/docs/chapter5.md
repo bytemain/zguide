@@ -65,7 +65,7 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是浓缩咖啡模式的代码：
 
-{{</* examples name="espresso" title="Espresso pattern" */>}}
+{{< examples name="espresso" title="Espresso pattern" >}}
 
 ## 最后值缓存 {#Last-Value-Caching}
 
@@ -79,7 +79,7 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是最后值缓存的代码：
 
-{{</* examples name="lvcache" title="Last value cache" */>}}
+{{< examples name="lvcache" title="Last value cache" >}}
 
 ## 慢订阅者检测（自杀蜗牛模式） {#Slow-Subscriber-Detection-Suicidal-Snail-Pattern}
 
@@ -95,7 +95,7 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是自杀蜗牛模式的代码：
 
-{{</* examples name="suisnail" title="Suicidal Snail pattern" */>}}
+{{< examples name="suisnail" title="Suicidal Snail pattern" >}}
 
 ## 高速订阅者（黑盒模式） {#High-Speed-Subscribers-Black-Box-Pattern}
 
@@ -110,7 +110,7 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是黑盒模式的代码：
 
-{{</* examples name="blackbox" title="Black Box pattern" */>}}
+{{< examples name="blackbox" title="Black Box pattern" >}}
 
 ## 可靠的发布 - 订阅（克隆模式） {#Reliable-Pub-Sub-Clone-Pattern}
 
@@ -135,33 +135,33 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 克隆服务器：
 
-{{</* examples name="clonesrv1" title="Clone server (snapshot)" */>}}
+{{< examples name="clonesrv1" title="Clone server (snapshot)" >}}
 
-{{</* examples name="clonesrv2" title="Clone server (snapshot + updates)" */>}}
+{{< examples name="clonesrv2" title="Clone server (snapshot + updates)" >}}
 
-{{</* examples name="clonesrv3" title="Clone server (snapshot + updates + heartbeats)" */>}}
+{{< examples name="clonesrv3" title="Clone server (snapshot + updates + heartbeats)" >}}
 
-{{</* examples name="clonesrv4" title="Clone server (snapshot + updates + heartbeats + TTL)" */>}}
+{{< examples name="clonesrv4" title="Clone server (snapshot + updates + heartbeats + TTL)" >}}
 
-{{</* examples name="clonesrv5" title="Clone server (full implementation)" */>}}
+{{< examples name="clonesrv5" title="Clone server (full implementation)" >}}
 
 克隆客户端：
 
-{{</* examples name="clonecli1" title="Clone client (basic)" */>}}
+{{< examples name="clonecli1" title="Clone client (basic)" >}}
 
-{{</* examples name="clonecli2" title="Clone client (with snapshot)" */>}}
+{{< examples name="clonecli2" title="Clone client (with snapshot)" >}}
 
-{{</* examples name="clonecli3" title="Clone client (with recovery)" */>}}
+{{< examples name="clonecli3" title="Clone client (with recovery)" >}}
 
-{{</* examples name="clonecli4" title="Clone client (with heartbeats)" */>}}
+{{< examples name="clonecli4" title="Clone client (with heartbeats)" >}}
 
-{{</* examples name="clonecli5" title="Clone client (full implementation)" */>}}
+{{< examples name="clonecli5" title="Clone client (full implementation)" >}}
 
 克隆协议定义：
 
-{{</* examples name="kvmsg" title="Key-value message class" */>}}
+{{< examples name="kvmsg" title="Key-value message class" >}}
 
-{{</* examples name="kvsimple" title="Simple key-value store" */>}}
+{{< examples name="kvsimple" title="Simple key-value store" >}}
 
 ## 使用反应器简化复杂服务器 {#Using-Reactors}
 
@@ -176,7 +176,7 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是使用反应器的示例：
 
-{{</* examples name="reactor" title="Reactor pattern" */>}}
+{{< examples name="reactor" title="Reactor pattern" >}}
 
 ## 为服务器添加故障转移 {#Adding-Failover-to-Servers}
 
@@ -192,11 +192,11 @@ ZeroMQ 的低级模式各有特点。发布 - 订阅解决了一个古老的消�
 
 这是发布 - 订阅双星模式的代码：
 
-{{</* examples name="bstar" title="Binary Star pattern for pub-sub" */>}}
+{{< examples name="bstar" title="Binary Star pattern for pub-sub" >}}
 
-{{</* examples name="bstarsrv" title="Binary Star pub-sub server" */>}}
+{{< examples name="bstarsrv" title="Binary Star pub-sub server" >}}
 
-{{</* examples name="bstarcli" title="Binary Star pub-sub client" */>}}
+{{< examples name="bstarcli" title="Binary Star pub-sub client" >}}
 
 ## 结论 {#Conclusion}
 

@@ -130,7 +130,7 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 这是代理的完整代码：
 
-{{</* examples name="lbbroker" title="Load balancing broker" */>}}
+{{< examples name="lbbroker" title="Load balancing broker" >}}
 
 ### 设计高级 API {#Designing-a-High-Level-API}
 
@@ -150,7 +150,7 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 这是高级 API 的一个示例：
 
-{{</* examples name="mtserver" title="Multithreaded server" */>}}
+{{< examples name="mtserver" title="Multithreaded server" >}}
 
 ### 构建异步请求 - 回复服务器 {#Building-an-Asynchronous-Request-Reply-Server}
 
@@ -167,7 +167,7 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 这是服务器的完整代码：
 
-{{</* examples name="asyncsrv" title="Asynchronous server" */>}}
+{{< examples name="asyncsrv" title="Asynchronous server" >}}
 
 ### 工作示例：代理间路由 {#Worked-Example-Inter-Broker-Routing}
 
@@ -465,11 +465,11 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 这是它在代码中的工作方式：
 
-{{</* examples name="peering1" title="原型状态流" */>}}
+{{< examples name="peering1" title="原型状态流" >}}
 
 这是代理的代码，经过精简和简化，可以处理只有一个状态流：
 
-{{</* examples name="peering1" title="原型状态流" */>}}
+{{< examples name="peering1" title="原型状态流" >}}
 
 这段代码展示了如何：
 
@@ -513,7 +513,7 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 这是处理本地和云流的代码：
 
-{{</* examples name="peering2" title="原型本地和云流" */>}}
+{{< examples name="peering2" title="原型本地和云流" >}}
 
 这段代码展示了如何：
 
@@ -526,7 +526,7 @@ ROUTER 套接字是异步的。你可以从它们那里接收消息，也可以�
 
 现在我们有了所有三个流，我们可以将它们组合成一个完整的程序。这是完整的代理代码：
 
-{{</* examples name="peering3" title="完整的集群模拟" */>}}
+{{< examples name="peering3" title="完整的集群模拟" >}}
 
 这是一个重要的程序，花了一天时间才完成。以下是亮点：
 

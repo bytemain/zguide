@@ -60,7 +60,7 @@ type: docs
 
 我们从一个简单的客户端开始，使用 REQ 套接字进行请求 - 回复：
 
-{{</* examples name="lpclient" title="Lazy Pirate client" */>}}
+{{< examples name="lpclient" title="Lazy Pirate client" >}}
 
 运行这个客户端，你会得到：
 
@@ -114,11 +114,11 @@ sys     0m0.008s
 
 这是懒惰海盗客户端的代码：
 
-{{</* examples name="lpclient" title="Lazy Pirate client" */>}}
+{{< examples name="lpclient" title="Lazy Pirate client" >}}
 
 这是懒惰海盗服务器的代码：
 
-{{</* examples name="lpserver" title="Lazy Pirate server" */>}}
+{{< examples name="lpserver" title="Lazy Pirate server" >}}
 
 ## 基本可靠队列（简单海盗模式） {#Basic-Reliable-Queuing-Simple-Pirate-Pattern}
 
@@ -148,11 +148,11 @@ sys     0m0.008s
 
 这是简单海盗代理的代码：
 
-{{</* examples name="spbroker" title="Simple Pirate broker" */>}}
+{{< examples name="spbroker" title="Simple Pirate broker" >}}
 
 这是简单海盗工人的代码：
 
-{{</* examples name="spworker" title="Simple Pirate worker" */>}}
+{{< examples name="spworker" title="Simple Pirate worker" >}}
 
 ## 健壮的可靠队列（偏执海盗模式） {#Robust-Reliable-Queuing-Paranoid-Pirate-Pattern}
 
@@ -170,11 +170,11 @@ sys     0m0.008s
 
 这是偏执海盗模式的代码：
 
-{{</* examples name="ppclient" title="Paranoid Pirate client" */>}}
+{{< examples name="ppclient" title="Paranoid Pirate client" >}}
 
-{{</* examples name="ppworker" title="Paranoid Pirate worker" */>}}
+{{< examples name="ppworker" title="Paranoid Pirate worker" >}}
 
-{{</* examples name="ppbroker" title="Paranoid Pirate broker" */>}}
+{{< examples name="ppbroker" title="Paranoid Pirate broker" >}}
 
 ## 心跳 {#Heartbeating}
 
@@ -189,7 +189,7 @@ sys     0m0.008s
 
 这是心跳的一个简单实现：
 
-{{</* examples name="heartbeat" title="Heartbeating" */>}}
+{{< examples name="heartbeat" title="Heartbeating" >}}
 
 ## 契约和协议 {#Contracts-and-Protocols}
 
@@ -222,13 +222,13 @@ sys     0m0.008s
 
 这是管家模式的代码：
 
-{{</* examples name="mdcliapi" title="Majordomo client API" */>}}
+{{< examples name="mdcliapi" title="Majordomo client API" >}}
 
-{{</* examples name="mdcliapi2" title="Majordomo client API (v2)" */>}}
+{{< examples name="mdcliapi2" title="Majordomo client API (v2)" >}}
 
-{{</* examples name="mdwrkapi" title="Majordomo worker API" */>}}
+{{< examples name="mdwrkapi" title="Majordomo worker API" >}}
 
-{{</* examples name="mdbroker" title="Majordomo broker" */>}}
+{{< examples name="mdbroker" title="Majordomo broker" >}}
 
 ## 异步管家模式 {#Asynchronous-Majordomo-Pattern}
 
@@ -243,9 +243,9 @@ sys     0m0.008s
 
 这是异步管家模式的代码：
 
-{{</* examples name="mdcliapi2" title="Asynchronous Majordomo client API" */>}}
+{{< examples name="mdcliapi2" title="Asynchronous Majordomo client API" >}}
 
-{{</* examples name="mdbroker2" title="Asynchronous Majordomo broker" */>}}
+{{< examples name="mdbroker2" title="Asynchronous Majordomo broker" >}}
 
 ## 服务发现 {#Service-Discovery}
 
@@ -260,7 +260,7 @@ sys     0m0.008s
 
 这是服务发现的一个简单实现：
 
-{{</* examples name="service-discovery" title="Service discovery" */>}}
+{{< examples name="service-discovery" title="Service discovery" >}}
 
 ## 幂等服务 {#Idempotent-Services}
 
@@ -275,7 +275,7 @@ sys     0m0.008s
 
 这是幂等服务的一个示例：
 
-{{</* examples name="idempotent" title="Idempotent service" */>}}
+{{< examples name="idempotent" title="Idempotent service" >}}
 
 ## 断开连接的可靠性（泰坦尼克模式） {#Disconnected-Reliability-Titanic-Pattern}
 
@@ -291,7 +291,7 @@ sys     0m0.008s
 
 这是泰坦尼克模式的代码：
 
-{{</* examples name="titanic" title="Titanic pattern" */>}}
+{{< examples name="titanic" title="Titanic pattern" >}}
 
 泰坦尼克模式由以下组件组成：
 
@@ -319,11 +319,11 @@ sys     0m0.008s
 
 这是双星模式的代码：
 
-{{</* examples name="bstar" title="Binary Star pattern" */>}}
+{{< examples name="bstar" title="Binary Star pattern" >}}
 
-{{</* examples name="bstarsrv" title="Binary Star server" */>}}
+{{< examples name="bstarsrv" title="Binary Star server" >}}
 
-{{</* examples name="bstarcli" title="Binary Star client" */>}}
+{{< examples name="bstarcli" title="Binary Star client" >}}
 
 双星模式的状态机如下：
 
@@ -356,13 +356,13 @@ sys     0m0.008s
 
 这是自由职业者模式的代码：
 
-{{</* examples name="flcliapi" title="Freelance client API" */>}}
+{{< examples name="flcliapi" title="Freelance client API" >}}
 
-{{</* examples name="flserver1" title="Freelance server 1" */>}}
+{{< examples name="flserver1" title="Freelance server 1" >}}
 
-{{</* examples name="flserver2" title="Freelance server 2" */>}}
+{{< examples name="flserver2" title="Freelance server 2" >}}
 
-{{</* examples name="flserver3" title="Freelance server 3" */>}}
+{{< examples name="flserver3" title="Freelance server 3" >}}
 
 ## 结论 {#Conclusion}
 
